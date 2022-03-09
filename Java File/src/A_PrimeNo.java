@@ -8,6 +8,7 @@ public class A_PrimeNo {
        String  primeNumbers = "";
        Scanner sc = new Scanner(System.in);
        int n=sc.nextInt();
+       sc.close();
        for (i = 1; i <= n; i++)         
        { 		  	  
           int counter=0; 	  
@@ -25,7 +26,7 @@ public class A_PrimeNo {
 	  }	
        }
        System.out.println(primeNumbers);
-       sc.close();
+       
       }
    // Scanner.close(sc);
 }
