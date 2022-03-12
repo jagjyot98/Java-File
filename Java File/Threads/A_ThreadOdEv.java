@@ -1,4 +1,4 @@
-public class G_ThreadOdEv{
+class A_ThreadOdEv{
     public static void main(String[] args) {
         Runnable r = new Runnable1();
         Thread t = new Thread(r);

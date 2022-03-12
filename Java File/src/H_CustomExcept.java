@@ -1,4 +1,4 @@
-public class H_ExceptHandle {
+public class H_CustomExcept {
 	    public static void main(String[] args) {
 	 
 	        try {
